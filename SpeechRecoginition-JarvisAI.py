@@ -10,7 +10,7 @@ import smtplib
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 # print(voices[1].id)
-engine.setProperty('voice', voices[1].id)    # change 1 to o in voice[1] to get output in male voice
+engine.setProperty('voice', voices[1].id)    # change 1 to 0 in voice[1] to get output in male voice
 
 def shutdown():
     os.system("shutdown /s /t 1")  # Shutdown after 1 second
