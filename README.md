@@ -25,7 +25,7 @@ Send an email.
 #Usage
 To use the program, simply run the jarvis.py file and start giving voice commands.
 
-python jarvis.py
+python SpeechRecoginition-JarvisAI.py
 
 When you run the program, Jarvis will greet you and ask how it can help you. You can then give any of the above mentioned commands and Jarvis will perform the corresponding task.
 
